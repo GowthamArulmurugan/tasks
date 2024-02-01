@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const app = express();
 const port = process.env.PORT||3000;
 //const bodyParser =require('body-parser')
-const Expense = require('./models/expenses');
+const Expense = require('./expenses');
 app.listen(port)
 //middle ware
 app.use(express.json());//only accept json
